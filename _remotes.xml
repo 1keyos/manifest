@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="cros"
            fetch="https://chromium.googlesource.com/"
-           review="gerrit.chromium.org/gerrit" />
+           review="https://gerrit-googlesource.proxy.ustclug.org/gerrit" />
   <remote  name="github"
            fetch=".." />
   <remote  name="private"
