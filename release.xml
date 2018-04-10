@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <notice>Your sources have been sync'd successfully.</notice>
-  <remote fetch="https://chromium.googlesource.com/" name="cros" review="gerrit.chromium.org/gerrit"/>
+  <remote fetch="https://chromium.googlesource.com/" name="cros" review="gerrit-googlesource.proxy.ustclug.org/gerrit"/>
   <remote fetch=".." name="github"/>
   <remote fetch="ssh://git@github.com" name="private"/>
   
