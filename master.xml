@@ -10,7 +10,6 @@ Your sources have been sync'd successfully.
 
   <project path="src/repohooks" name="1keyos/chromiumos-repohooks"
            groups="minilayout"  />
-  <repo-hooks in-project="chromiumos/repohooks" enabled-list="pre-upload" />
 
   <project path="chromite" name="coreos/chromite" groups="minilayout" >
     <copyfile src="AUTHORS" dest="AUTHORS" />
