@@ -8,8 +8,8 @@
 Your sources have been sync'd successfully.
   </notice>
 
-  <project path="src/repohooks" name="chromiumos/repohooks"
-           groups="minilayout" remote="cros" />
+  <project path="src/repohooks" name="1keyos/chromiumos-repohooks"
+           groups="minilayout"  />
   <repo-hooks in-project="chromiumos/repohooks" enabled-list="pre-upload" />
 
   <project path="chromite" name="coreos/chromite" groups="minilayout" >
@@ -17,8 +17,8 @@ Your sources have been sync'd successfully.
     <copyfile src="LICENSE" dest="LICENSE" />
   </project>
   <project path="chromite/third_party/pyelftools"
-           groups="minilayout" remote="cros"
-           name="chromiumos/third_party/pyelftools" />
+           groups="minilayout" 
+           name="1keyos/chromiumos-third_party-pyelftools" />
 
   <project path="src/scripts" name="coreos/scripts"
            groups="minilayout" />
